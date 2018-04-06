@@ -32,5 +32,9 @@ public class SepedaMotorAksi {
         Suzuki.warna="Biru";
         Suzuki.silinder="110cc";
         Suzuki.tahun="2009";
+        
+        Honda.cetakInfo();
+        Yamaha.cetakInfo();
+        Suzuki.cetakInfo();
     }
 }
