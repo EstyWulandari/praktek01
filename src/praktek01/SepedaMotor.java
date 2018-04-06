@@ -10,5 +10,21 @@ package praktek01;
  * @author proWindows8.1
  */
 public class SepedaMotor {
+    String merk;
+    String jenis;
+    String warna;
+    String silinder;
+    String tahun;
     
+    void cetakInfo(){
+        System.out.println("Merk            :"+merk);
+        System.out.println("Jenis           :"+jenis);
+        System.out.println("Warna           :"+warna);
+        System.out.println("Isi Silinder    :"+silinder);
+        System.out.println("Tahun Perakitan :"+tahun);
+        
+        System.out.println("");
+        System.out.println("Mempermudah Pekerjaan");
+        System.out.println("");
+    }
 }
