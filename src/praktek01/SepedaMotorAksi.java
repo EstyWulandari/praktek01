@@ -11,6 +11,8 @@ package praktek01;
  */
 public class SepedaMotorAksi {
     public static void main(String[] args) {
-        
+        SepedaMotor Honda = new SepedaMotor();
+        SepedaMotor Yamaha = new SepedaMotor();
+        SepedaMotor Suzuki = new SepedaMotor();
     }
 }
