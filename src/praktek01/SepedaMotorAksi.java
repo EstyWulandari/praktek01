@@ -14,5 +14,23 @@ public class SepedaMotorAksi {
         SepedaMotor Honda = new SepedaMotor();
         SepedaMotor Yamaha = new SepedaMotor();
         SepedaMotor Suzuki = new SepedaMotor();
+        
+        Honda.merk="Scoopy";
+        Honda.jenis="Metic";
+        Honda.warna="Silver";
+        Honda.silinder="100cc";
+        Honda.tahun="2017";
+        
+        Yamaha.merk="Jupiter MX";
+        Yamaha.jenis="kopling";
+        Yamaha.warna="Merah";
+        Yamaha.silinder="135cc";
+        Yamaha.tahun="2013";
+        
+        Suzuki.merk="Shogun SP";
+        Suzuki.jenis="Manual";
+        Suzuki.warna="Biru";
+        Suzuki.silinder="110cc";
+        Suzuki.tahun="2009";
     }
 }
